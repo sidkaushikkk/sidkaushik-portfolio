@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidhant Kaushik | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo"><span>SidKaushik</span></a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                    <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" class="icon" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" class="icon" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <h3 class="hero-subtitle">Hello, I'm</h3>
+                    <h1 class="hero-title">Sidhant Kaushik</h1>
+                    <h2 class="hero-typed">
+                        I am a <span class="typing-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="hero-desc">
+                        A second-year B.Tech Computer Science Engineering student at USICT (GGSIPU).
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-graphics reveal reveal-right">
+                    <div class="graphic-shape glass-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 24 24" 
+                        fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" 
+                        stroke-linejoin="round" class="hero-icon"><circle cx="12" cy="12" r="3"></circle>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-
+                        .06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-
+                        2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 
+                        0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 
+                        2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83
+                        2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2
+                        2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 
+                        0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.06c.26.6.84 1 1.51  1H21a2 2 0 0 1
+                        2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                    </div>
+                </div>
+            </div>
+            <!-- Background Elements -->
+            <div class="bg-circle circle-1"></div>
+            <div class="bg-circle circle-2"></div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>About Me</h2>
+                    <p>My Background & Aspirations</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-img glass-card reveal reveal-left">
+                    <img src="SidKaushik.jpg" alt="Profile Image" class="profile-img">                    </div>
+                    <div class="about-text reveal reveal-right">
+                        <h3>Computer Science Engineering Undergraduate</h3>
+                        <p>I am currently pursuing my Bachelor of Technology in Computer Science Engineering at University School of Information, Communication and Technology (USICT), GGSIPU.</p>
+                        <p>With a profound curiosity for how things work, I focus on the intersection of softwares and needs. My interests lie in problem solving , designing algorithms , making things work .</p>
+                        
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-title">Degree:</span>
+                                <span class="info-desc">B.Tech Computer Science</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">University:</span>
+                                <span class="info-desc">USICT (GGSIPU)</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Year:</span>
+                                <span class="info-desc">Second Year</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Location:</span>
+                                <span class="info-desc">New Delhi, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section glass-section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>My Core Skills</h2>
+                    <p>Technical and Engineering Competencies</p>
+                </div>
+                
+                <div class="skills-container">
+                    <!-- Progress Bars for Core Technical Skills -->
+                    <div class="skills-group reveal reveal-left">
+                        <h3 class="skills-heading">Software Proficiency</h3>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Web development and Design</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>AI/ML Engineering</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Programming (C/C++ / Python)</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Databases and cloud computing</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill Cards for soft skills & other competencies -->
+                    <div class="skill-cards reveal reveal-right">
+                        <h3 class="skills-heading">Core Competencies</h3>
+                        <div class="cards-grid">
+                            <div class="skill-card glass-card hover-lift">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                                <h4>Problem Solving</h4>
+                                <p>Analytical thinking and algorithmic approach to complex computational problems.</p>
+                            </div>
+                            <div class="skill-card glass-card hover-lift">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                                <h4>Software Development</h4>
+                                <p>Designing and building efficient applications using modern programming languages and frameworks.</p>
+                            </div>
+                            <div class="skill-card glass-card hover-lift">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                <h4>Data Structure and Algorithms</h4>
+                                <p>Strong foundation in optimizing performance through efficient data handling and algorithm design.</p>
+                            </div>
+                            <div class="skill-card glass-card hover-lift">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="skill-icon"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.06c.26.6.84 1 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                                <h4>Computer Systems and Networking</h4>
+                                <p>Understanding of operating systems, system architecture, and network communication.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section 
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Featured Projects</h2>
+                    <p>Some of my recent mechanical designs and studies</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 --
+                    <div class="project-card glass-card hover-lift reveal">
+                        <div class="project-img">
+                            <div class="img-content">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="placeholder-icon"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Robotic Arm CAD Model</h3>
+                            <p>Designed a multi-axis robotic arm in SolidWorks, focusing on kinematic performance and material optimization for manufacturing.</p>
+                            <div class="tech-stack">
+                                <span class="badge">SolidWorks</span>
+                                <span class="badge">Kinematics</span>
+                            </div>
+                            <a href="#" class="btn btn-small btn-primary">Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 --
+                    <div class="project-card glass-card hover-lift reveal" style="transition-delay: 100ms;">
+                        <div class="project-img">
+                            <div class="img-content">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="placeholder-icon"><path d="M12 2v20"></path><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>IC Engine Efficiency Analysis</h3>
+                            <p>A comprehensive academic study on optimizing thermal efficiency of a modern 4-stroke internal combustion engine.</p>
+                            <div class="tech-stack">
+                                <span class="badge">Thermodynamics</span>
+                                <span class="badge">Python</span>
+                            </div>
+                            <a href="#" class="btn btn-small btn-primary">Details</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 --
+                    <div class="project-card glass-card hover-lift reveal" style="transition-delay: 200ms;">
+                        <div class="project-img">
+                            <div class="img-content">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="placeholder-icon"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.06c.26.6.84 1 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>CNC Optimized Toolpaths</h3>
+                            <p>Developed optimized G-code toolpaths using CAM software to reduce machining time and improve surface finish.</p>
+                            <div class="tech-stack">
+                                <span class="badge">AutoCAD</span>
+                                <span class="badge">CAM</span>
+                                <span class="badge">C++</span>
+                            </div>
+                            <a href="#" class="btn btn-small btn-primary">Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section --
+        <section id="achievements" class="achievements section glass-section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Achievements & Activities</h2>
+                    <p>Extracurriculars and milestones</p>
+                </div>
+
+                <div class="achievements-timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card hover-lift">
+                            <h3>Winner - National Robowars 2023</h3>
+                            <span class="timeline-date">Nov 2023</span>
+                            <p>Designed and built a 15kg combat robot that secured 1st place among 50+ participating colleges across India.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card hover-lift">
+                            <h3>Member, SAE India Collegiate Club</h3>
+                            <span class="timeline-date">2022 - Present</span>
+                            <p>Active contributor to the vehicle dynamics team for the upcoming student formula racing competition.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card hover-lift">
+                            <h3>Certified SolidWorks Associate (CSWA)</h3>
+                            <span class="timeline-date">Aug 2023</span>
+                            <p>Demonstrated proficiency in mechanical design, drawing methodologies, and engineering concepts using SolidWorks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-title reveal">
+                    <h2>Get In Touch</h2>
+                    <p>Let's connect and discuss engineering! </p>
+                </div>
+
+                <div class="contact-container">
+                    <div class="contact-info reveal reveal-left">
+                        <div class="contact-card glass-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <h3>Email Me</h3>
+                            <p>ksiddhant705@gmail.com</p>
+                            <a href="mailto:ksiddhant705@gmail.com" class="contact-link">Write a message &rarr;</a>
+                        </div>
+                        
+                        <div class="contact-card glass-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            <h3>LinkedIn</h3>
+                            <p>Connect professionally</p>
+                            <a href="https://www.linkedin.com/in/sidhantkaushik/" class="contact-link">View profile &rarr;</a>
+                        </div>
+
+                        <div class="contact-card glass-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="contact-icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <h3>GitHub</h3>
+                            <p>Check out my code</p>
+                            <a href="https://github.com/sidkaushikkk" class="contact-link">View repos &rarr;</a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form glass-card reveal reveal-right" onsubmit="event.preventDefault(); alert('Form submitted! (Mocked via JavaScript)');">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" >
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required placeholder="Hello there!"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <a href="#home" class="logo footer-logo">Sid<span>Kaushik</span></a>
+                <p>USICT GGSIPU • B.Tech Computer Science Engineering</p>
+            </div>
+            
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/sidhantkaushik/" class="social-icon" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://github.com/sidkaushikkk" class="social-icon" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="mailto:ksiddhant705@gmail.com" class="social-icon" aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom container">
+            <!-- <p>&copy; <span id="year"></span> </p> -->
+            <a href="#home" class="back-to-top" aria-label="Back to top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
